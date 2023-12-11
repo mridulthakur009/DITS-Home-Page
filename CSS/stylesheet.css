@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Top Navbar */
+
 .mrgtopbtm2px{
     margin: 10px 0px ;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,4 +18,33 @@
 .alignSocialAtNav {
     float: right;
     margin-right: -15px;
+}
+
+/* Main Navbar */
+
+.navBar{
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 5px 2px 3px #c1b5b5;
+    margin-bottom: 0;
+
+}
+
+.topAuto div ul li:first-child, li:nth-child(7){
+    border-bottom: 2px solid #1977CC;
+        
+}
+.topAuto div ul li:first-child a:hover{
+    color: #1977CC;
+}
+.topAuto div ul li:nth-child(7) a:hover{
+    color: #1977CC;
+}
+.topAuto{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.appointmentRoundBtn2{
+    border-radius: 25px;
 }

@@ -12,7 +12,8 @@
 </head>
 <body>
 
-    <header>
+  <!-- Top Navbar -->
+      <header>
         <div class="container">
           <div class="row mrgtopbtm2px ">
             <div class="col-sm-11 mrgleft15">
@@ -31,7 +32,58 @@
             </div>
           </div>
         </div>
-      </header>    
+      </header>
+      
+      <!-- Main Navbar -->
+      <nav class="navbar navbar-default navBar topAuto">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img
+              src="./images/DITS-Logo.jpg"
+              alt="logo"
+              class="navbar-brand"
+            />
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Departments</a></li>
+              <li><a href="#">Doctors</a></li>
+              <li class="dropdown">
+                <a
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Drop Down<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li style="border: none;"><a href="#">DITS India</a></li>
+                  <li><a href="#">DITS Florida</a></li>
+                  <li><a href="#">DITS California</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+              <button
+                class="btn btn-primary navbar-btn appointmentRoundBtn2"
+              >
+                Make an Appointment
+              </button>
+            </ul>
+          </div>
+        </div>
+</nav>
   
 
     <script src="./js/jquery.min.js"></script>
