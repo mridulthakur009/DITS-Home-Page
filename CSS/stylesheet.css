@@ -5,6 +5,20 @@
     font-family: ralewayregular;
 }
 
+body{
+    font-family: ralewayregular;
+}
+h1{
+    font-family: ralewaybold;
+    text-transform: uppercase;
+}
+h2,h3,h4,h5,h6{
+    font-family: ralewaysemibold;
+}
+p{
+    font-family: ralewaymedium;
+}
+
 /* Top Navbar */
 
 .mrgtopbtm2px{
@@ -48,4 +62,24 @@
 }
 .appointmentRoundBtn2{
     border-radius: 25px;
+}
+
+
+/* Main Banner */
+
+.banner-1{
+    background-image: url(../images/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.center-left{
+    position: absolute;
+    transform: translate(0%, 50%);
+}
+
+.appointmentRoundBtn{
+    border-radius: 25px;
+    text-transform: uppercase;
 }
