@@ -83,3 +83,29 @@ p{
     border-radius: 25px;
     text-transform: uppercase;
 }
+
+/* About DITS- 4 Cards */
+
+.setCards{
+    position: relative;
+    transform: translate(0%, -25%);
+}
+.box{
+    border: 1px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0  0 8px rgba(221,221,221);  
+}
+.box1Align{
+    position: relative;
+    transform: translate(0%, -12%);
+}
+.learnMoreBtn{
+    background-color: #4792D6;
+    margin-left: 30%;
+}
+.bgToWhite{
+    background-color: white;
+    text-align: center;
+}
