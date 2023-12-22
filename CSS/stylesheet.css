@@ -109,3 +109,20 @@ p{
     background-color: white;
     text-align: center;
 }
+
+/* Half Banner &  Information */
+
+.setContentInfo{
+    padding: 40px;
+    margin-top: -30px;
+}
+.myIcon {
+    border: 1px solid #1977cc;
+    border-radius: 50%;
+    color: #1977cc;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
