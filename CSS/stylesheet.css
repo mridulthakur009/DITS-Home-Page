@@ -147,3 +147,22 @@ p{
     position: relative;
     transform: translate(0%, -50%);
 }
+
+/* Services Cards */
+
+.mrgTop40px{
+    margin-top: 40px;
+    text-align: center;
+}
+.sixCards{
+    margin: 10px 0px 20px 0px;
+    height: 300px;
+    border: 1px solid #d5e1ed;
+    padding: 70px 10px;
+}
+.FA6Cards{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -10px -10px #86b7e5;
+}
