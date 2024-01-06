@@ -171,9 +171,6 @@ p{
 .mrgcrd4{
     margin-top: 35px;
 }
-.FAQColor{
-    background-color: #F1F7FD;
-}
 .mrgLeft2{
     margin-left: 46%;
 }
@@ -227,4 +224,14 @@ p{
 .doctorImgSet{
     border-radius: 50%;
     margin-top: 25px;
+}
+
+/* FAQ */
+.FAQColor{
+    background-color: #F1F7FD;
+}
+.bg-white{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
